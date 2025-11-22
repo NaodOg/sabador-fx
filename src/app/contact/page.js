@@ -63,7 +63,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white pt-24">
+    <div className="min-h-screen bg-black text-white pt-24 overflow-x-hidden">
       <Navbar />
       {/* Contact Section */}
       <div className="py-20 px-6">

@@ -76,9 +76,9 @@ const FeatureCardsList = () => {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-black text-white pt-24">
+    <div className="min-h-screen bg-black text-white pt-24 overflow-x-hidden">
       <MainNavbar />
-      <div className="p-8">
+      <div className="p-4 md:p-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Column 1: "WHO WE ARE" heading */}
@@ -140,7 +140,7 @@ export default function AboutPage() {
       </div>
 
       {/* Why Choose Section */}
-      <div className="py-20 px-6 bg-black">
+      <div className="py-20 px-4 md:px-6 bg-black">
         <div className="max-w-7xl mx-auto">
           <motion.div
             className="flex flex-col lg:flex-row gap-16 items-center"

@@ -218,7 +218,7 @@ export default function Home() {
     return (
         <>
         <div
-            className="min-h-screen bg-black pt-24"
+            className="min-h-screen bg-black pt-24 overflow-x-hidden"
         >
             <Navbar />
 
@@ -226,7 +226,7 @@ export default function Home() {
             <AnimatedHeroDemo />
 
             {/* Services Section */}
-            <div className="py-20 px-6 lg:px-16 bg-black">
+            <div className="py-20 px-6 lg:px-16 bg-black overflow-x-hidden">
                 <div className="max-w-7xl mx-auto">
                     <motion.div
                         className="flex flex-col lg:flex-row"
