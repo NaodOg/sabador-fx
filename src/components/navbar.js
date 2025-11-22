@@ -26,7 +26,7 @@ const navigationLinks = [
 
 export default function Navbar() {
     return (
-        <header className="w-full flex h-24 items-center justify-between gap-4 py-2 px-6 fixed top-0 left-0 right-0 z-50 bg-black">
+        <header className="w-full flex h-24 items-center justify-between gap-4 py-2 px-4 md:px-6 fixed top-0 left-0 right-0 z-50 bg-black overflow-hidden">
             <Link
                 href="/"
                 className="flex items-center pt-3"
@@ -34,7 +34,7 @@ export default function Navbar() {
                 <img
                     src="/FX LOGO.png"
                     alt="Sabador FX Logo"
-                    className="w-32 h-32 object-contain"
+                    className="w-16 h-16 md:w-20 md:h-20 object-contain"
                 />
             </Link>
 

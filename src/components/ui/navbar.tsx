@@ -19,6 +19,19 @@ type MobileNavProps = {
 export function MobileNav({ nav }: MobileNavProps) {
     const [open, setOpen] = React.useState(false)
 
+    React.useEffect(() => {
+        if (open) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+
+        // Cleanup function
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [open]);
+
     return (
         <>
             <Button
@@ -65,7 +78,7 @@ export function MobileNav({ nav }: MobileNavProps) {
                             onClick={() => setOpen(false)}
                         />
                         <motion.div
-                            className="fixed top-0 right-0 h-full w-1/2 bg-black/80 backdrop-blur-lg text-white z-[999] overflow-y-auto p-6"
+                            className="fixed top-0 right-0 h-full w-[300px] max-w-[80%] bg-black/80 backdrop-blur-lg text-white z-[999] overflow-y-auto p-6"
                             initial={{ x: '100%' }}
                             animate={{ x: 0 }}
                             exit={{ x: '100%' }}
