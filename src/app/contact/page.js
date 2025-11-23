@@ -74,9 +74,9 @@ export default function ContactPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="bg-[#111111] p-10 lg:p-14 rounded-xl"
+              className="bg-[#111111] p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl"
             >
-              <h1 className="text-white text-4xl font-bold text-center mb-10">
+              <h1 className="text-white text-2xl sm:text-3xl font-bold text-center mb-6">
                 Get In Touch
               </h1>
 
@@ -84,16 +84,16 @@ export default function ContactPage() {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
-                className="space-y-6"
+                className="space-y-4 sm:space-y-6"
                 onSubmit={handleSubmit}
               >
                 {/* Name Field */}
                 <motion.div variants={itemVariants}>
-                  <label className="text-white text-sm block mb-2">Name</label>
+                  <label className="text-white text-xs sm:text-sm block mb-1 sm:mb-2">Name</label>
                   <input
                     type="text"
                     name="name"
-                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-4 py-3 focus:outline-none focus:border-white"
+                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-3 py-2 sm:px-4 sm:py-3 focus:outline-none focus:border-white text-sm"
                     placeholder="Your name"
                     required
                   />
@@ -101,11 +101,11 @@ export default function ContactPage() {
 
                 {/* Email Field */}
                 <motion.div variants={itemVariants}>
-                  <label className="text-white text-sm block mb-2">Email</label>
+                  <label className="text-white text-xs sm:text-sm block mb-1 sm:mb-2">Email</label>
                   <input
                     type="email"
                     name="email"
-                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-4 py-3 focus:outline-none focus:border-white"
+                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-3 py-2 sm:px-4 sm:py-3 focus:outline-none focus:border-white text-sm"
                     placeholder="Your email"
                     required
                   />
@@ -113,11 +113,11 @@ export default function ContactPage() {
 
                 {/* Subject Field */}
                 <motion.div variants={itemVariants}>
-                  <label className="text-white text-sm block mb-2">Subject</label>
+                  <label className="text-white text-xs sm:text-sm block mb-1 sm:mb-2">Subject</label>
                   <input
                     type="text"
                     name="subject"
-                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-4 py-3 focus:outline-none focus:border-white"
+                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-3 py-2 sm:px-4 sm:py-3 focus:outline-none focus:border-white text-sm"
                     placeholder="Subject"
                     required
                   />
@@ -125,11 +125,11 @@ export default function ContactPage() {
 
                 {/* Message Field */}
                 <motion.div variants={itemVariants}>
-                  <label className="text-white text-sm block mb-2">Message</label>
+                  <label className="text-white text-xs sm:text-sm block mb-1 sm:mb-2">Message</label>
                   <textarea
-                    rows={5}
+                    rows={4}
                     name="message"
-                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-4 py-3 focus:outline-none focus:border-white"
+                    className="w-full bg-transparent border border-gray-600 text-white rounded-md px-3 py-2 sm:px-4 sm:py-3 focus:outline-none focus:border-white text-sm"
                     placeholder="Your message"
                     required
                   ></textarea>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                 <motion.button
                   variants={itemVariants}
                   type="submit"
-                  className="bg-white text-black font-semibold rounded-md py-3 w-full hover:bg-gray-200 transition"
+                  className="bg-white text-black font-semibold rounded-md py-2 sm:py-3 w-full hover:bg-gray-200 transition text-sm sm:text-base"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : 'Send Message'}
