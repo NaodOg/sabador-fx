@@ -145,7 +145,7 @@ export default function ProductsPage() {
       </div>
 
       {/* SFX Machines Section */}
-      <div className="py-8 px-6" id="sfx-machines-section">
+      <div className="py-2 px-6" id="sfx-machines-section">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold text-center text-white">
             Stage Effect Machine
@@ -169,7 +169,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Rotating Feature Images Section - Marquee Style */}
-      <div className="py-4 px-6">
+      <div className="py-0 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="relative h-64 md:h-80 overflow-hidden rounded-xl [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]">
             <motion.div
@@ -248,7 +248,7 @@ export default function ProductsPage() {
       </div>
 
       {/* SFX Machines Section */}
-      <div className="py-6 px-6">
+      <div className="py-0 px-6 -mt-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-6">
             {/* Left Column with requested machines */}
@@ -294,7 +294,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Wristband And Access Section */}
-      <div className="py-12 px-6" id="wristband-section">
+      <div className="py-2 px-6" id="wristband-section">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">
             Wristband And Access
@@ -315,7 +315,7 @@ export default function ProductsPage() {
           </div>
 
           {/* Rotating Wristband Images Section - Marquee Style */}
-          <div className="py-4 px-6">
+          <div className="py-0 px-6">
             <div className="relative h-64 md:h-80 overflow-hidden rounded-xl [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]">
               <motion.div
                 className="flex gap-4"
@@ -383,7 +383,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Wristband Accessories Section */}
-      <div className="py-6 px-6">
+      <div className="py-0 px-6 -mt-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-6">
             {/* Left Column with specified wristband items */}
@@ -429,7 +429,7 @@ export default function ProductsPage() {
       </div>
 
       {/* GlowGear Section */}
-      <div className="py-16 px-6 bg-black" id="glowgear-section">
+      <div className="py-2 px-6 bg-black" id="glowgear-section">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -453,7 +453,7 @@ export default function ProductsPage() {
           </div>
 
           {/* Rotating GlowGear Images Section - Marquee Style */}
-          <div className="py-4">
+          <div className="py-0">
             <div className="relative h-64 md:h-80 overflow-hidden rounded-xl [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]">
               <motion.div
                 className="flex gap-4"
@@ -511,7 +511,7 @@ export default function ProductsPage() {
           </div>
 
           {/* GlowGear Categories */}
-          <div className="py-6">
+          <div className="py-0 -mt-4">
             <div className="grid grid-cols-2 gap-6">
               {/* Left Column with specified glow gear items */}
               <div className="space-y-3">
@@ -565,7 +565,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Staff Essentials AND VIP Experience Section */}
-      <div className="py-6 px-6 bg-gradient-to-b from-black to-gray-900" id="staff-vip-section">
+      <div className="py-2 px-6 bg-gradient-to-b from-black to-gray-900" id="staff-vip-section">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-4">
             Staff Essentials & VIP Experience

@@ -157,23 +157,23 @@ export default function ContactPage() {
               {/* Top Row - Phone and Email */}
               <div className="grid grid-cols-2 gap-8 mb-10">
                 {/* Phone Number */}
-                <div className="text-center">
+                <div className="text-center break-words">
                   <Phone className="w-14 h-14 text-white mx-auto mb-3" />
-                  <h3 className="text-white text-2xl font-semibold mt-6 mb-2 text-center">
+                  <h3 className="text-white text-xl sm:text-2xl font-semibold mt-6 mb-2 text-center">
                     Phone Number
                   </h3>
-                  <p className="text-neutral-300 text-center">
+                  <p className="text-neutral-300 text-center break-words text-sm sm:text-base">
                     +251 991259465
                   </p>
                 </div>
 
                 {/* Email Address */}
-                <div className="text-center">
+                <div className="text-center break-words">
                   <Mail className="w-14 h-14 text-white mx-auto mb-3" />
-                  <h3 className="text-white text-2xl font-semibold mt-6 mb-2 text-center">
+                  <h3 className="text-white text-xl sm:text-2xl font-semibold mt-6 mb-2 text-center">
                     Email Address
                   </h3>
-                  <p className="text-neutral-300 text-center">
+                  <p className="text-neutral-300 text-center break-words text-sm sm:text-base">
                     teamsabadoorfx@gmail.com
                   </p>
                 </div>
@@ -182,23 +182,23 @@ export default function ContactPage() {
               {/* Bottom Row - WhatsApp and Office */}
               <div className="grid grid-cols-2 gap-8 mb-10">
                 {/* WhatsApp */}
-                <div className="text-center">
+                <div className="text-center break-words">
                   <MessageCircle className="w-14 h-14 text-white mx-auto mb-3" />
-                  <h3 className="text-white text-2xl font-semibold mt-6 mb-2 text-center">
+                  <h3 className="text-white text-xl sm:text-2xl font-semibold mt-6 mb-2 text-center">
                     WhatsApp
                   </h3>
-                  <p className="text-neutral-300 text-center">
+                  <p className="text-neutral-300 text-center break-words text-sm sm:text-base">
                     +251 991259465
                   </p>
                 </div>
 
                 {/* Office Location */}
-                <div className="text-center">
+                <div className="text-center break-words">
                   <MapPin className="w-14 h-14 text-white mx-auto mb-3" />
-                  <h3 className="text-white text-2xl font-semibold mt-6 mb-2 text-center">
+                  <h3 className="text-white text-xl sm:text-2xl font-semibold mt-6 mb-2 text-center">
                     Our Office
                   </h3>
-                  <p className="text-neutral-300 text-center">
+                  <p className="text-neutral-300 text-center break-words text-sm sm:text-base">
                     Addis Ababa, Ethiopia
                   </p>
                 </div>

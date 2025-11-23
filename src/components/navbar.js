@@ -19,6 +19,7 @@ const navigationLinks = [
             { href: '/', label: 'Home', active: true },
             { href: '/about', label: 'About Us' },
             { href: '/products', label: 'Products' },
+            { href: '/upcoming-events', label: 'Upcoming Events' },
             { href: '/contact', label: 'Contact Us' },
         ],
     },
