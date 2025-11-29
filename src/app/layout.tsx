@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sabador FX",
-  description: "Modern website with React, Tailwind CSS, and Framer Motion",
+  title: "TeamsabadoorFX",
+  description: "Stage effect machine, Wrist band and access, Glow Gear, Staff essentials and VIP experience",
 };
 
 export default function RootLayout({
